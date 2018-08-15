@@ -1,0 +1,133 @@
+*,*:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #3C6BE0;
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 30px;
+}
+
+.arrow {
+  position: relative;
+  float: left;
+  right: 5%;
+}
+
+.favorite-star {
+  position: relative;
+  float: left;
+  left: 15%;
+}
+
+.options {
+  position: relative;
+  float: left;
+  left: 20%;
+  top: 1.4px
+}
+
+.bus-info {
+  width: 100%;
+  padding: 10px;
+}
+
+.image {
+  position: relative;
+  margin: 0 auto;
+  top: 5px;
+}
+
+.container-two {
+  background-color: #12127C;
+  width: 100%;
+  padding: 1%;
+}
+
+.departures {
+  float: left;
+  padding-left: 2.5%;
+  padding-top: 0.5%;
+}
+
+.map {
+  padding-left: 90%;
+  padding-top: 0.5%;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+
+.bus-stop {
+  position: relative;
+  float: left;
+  font-size: 1.5em;
+  font-weight: 100;
+  left: 8%;
+  top: -5px;
+
+}
+.content {
+  border-bottom: 0.5px solid #C4C4D3;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.route {
+  position: relative;
+  padding-top: 4%;
+
+}
+
+.bus-number {
+  position: relative;
+  padding-top: 5%;
+
+}
+
+.destination {
+  position: relative;
+  padding-top: 1%;
+
+}
+
+.time {
+  position: relative;
+  float: right;
+  bottom: 40px
+
+}
+
+.icon-bar {
+  width: 100%;
+  background-color:  #3C6BE0;
+
+}
+
+.icon-bar a {
+    display: block;
+    float: left;
+    width: 32%;
+    text-align: center;
+    padding: 5% 6% 5% 10%;
+    color: white;
+    font-size: 1.4em;
+}
