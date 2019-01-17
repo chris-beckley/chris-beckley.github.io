@@ -2,39 +2,80 @@
 <html>
 <head>
   <title>Portfolio | Chris Beckley</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Material Design Lite -->
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-lime.min.css">
    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
- </head>
+   <!-- Font Awesome -->
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- Custom Styles -->
+ <link rel="stylesheet" href="styles/main.css">
+</head>
+   <!-- Custom Styles -->
+     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
-    <header>
+    <header class="mdl-layout__header mdl-layout__header--transparent">
       <h1>Chris Beckley</h1>
       <p class="slogan"> UI Designer from the Metro Detroit Area</p>
       </header>
-      <main>
-        <div class="project featured-project">
+    <main class="mdl-layout__content mdl-grid">
+      <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+      <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
           <img src="images/iPhone 8 Plus 5.png" alt="Draw With Me screenshot"/>
+        </div>
+        <div class="mdl-cell mdl-cell--7-col">
           <h2>Draw With Me</h2>
-          <p>Upcoming project of a freemium app that will let you exchange drawings with friends.</p>
+          <p class="project-description mdl-card__supporting-text">Upcoming project of a freemium app that will let you exchange drawings with friends.</p>
+        </div>
           </div>
-          <div class="project">
-            <img src="images/Desktop (4).png" alt="BlocCloud Desktop screenshot"/>
-            <h2>BlocCloud Desktop</h2>
-            <p>Desktop version of BlocCloud, a cloud storage app designed for both desktop and smartphones.<p>
-              </div>
-          <div class="project">
-            <img src="images/iPhone 8.9.png"  alt="BlocCloud Mobile screenshot"/>
-            <h2>BlocCloud Smartphone<h2>
-              <p>Smartphone version of the BlocCloud app.</p>
-              </div>
+         <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+           <div>
+            <img src="images/Desktop (10).png" alt="BlocCloud Desktop screenshot"/>
+          </div>
+            <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">BlocCloud Desktop</h2>
+          </div>
+            <div class="mdl-card__supporting-text">Desktop version of BlocCloud, a cloud storage app designed for both desktop and smartphones.</div>
+          </div>
+           <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+             <div>
+            <img src="images/iPhone 8.24 (2).png"  alt="BlocCloud Smartphone screenshot"/>
+          </div>
+            <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">BlocCloud Smartphone<h2>
+            </div>
+              <div class="mdl-card__supporting-text">Smartphone version of the BlocCloud app.</div>
+            </div>
+              <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div>
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
+        </div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Project Name</h2>
+        </div>
+        <div class="mdl-card__supporting-text">Project description text</div>
+      </div>
               </main>
-              <footer>
-      <ul>
-        <li> <a href="https://www.linkedin.com/in/chris-beckley-784180170/">LinkedIn</a> </li>
-        <li> <a href="https://github.com/chris-beckley">GitHub</a> </li>
-        <li> <a href="https://twitter.com/woober1">Twitter</a> </li>
-        <li> <a href="mailto:chrisbeckley001@gmail.com">Email</a> </li>
+              <footer class="mdl-mini-footer">
+      <ul class="mdl-mini-footer__link-list">
+        <li>
+           <a href="https://www.linkedin.com/in/chris-beckley-784180170/">
+             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+           </a>
+         </li>
+        <li> <a href="https://github.com/chris-beckley">
+          <i class="fa fa-github-square" aria-hidden="true"></i>
+        </a>
+      </li>
+        <li> <a href="https://twitter.com/woober1">
+          <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        </a>
+      </li>
+        <li> <a href="mailto:chrisbeckley001@gmail.com">
+           <i class="fa fa-envelope-square" aria-hidden="true"></i>
+        </a>
+      </li>
       </ul>
     </footer>
 
